@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Merienda:wght@300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merienda", cursive;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+#main{
+    width: 100%;
+    height: 85vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    padding: 0vw 10vw;
+    position: fixed;
+    z-index: 99;
+}
+.center{
+    display: flex;
+    gap: 3vw;
+}
+nav a , i{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/img/bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h1{
+    color: white;
+    font-size: 18vw;
+}
+#choclate{
+    position: absolute;
+    width: 25%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    top: 8%;
+    left: 42%;
+    z-index: 1;
+}
+#can{
+    position: absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    z-index: 2;
+    width: 35%;
+}
+#choclate2{
+    position: absolute;
+    width: 15%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    top: 70%;
+    right: 38%;
+    z-index: 3;
+}
+#almod{
+    position: absolute;
+    width: 7%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    top: 10%;
+    left: 5%;
+    transform: rotate(60deg);
+    z-index: 4;
+}
+#almod2{
+    position: absolute;
+    width: 10%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    top: 70%;
+    left: 80%;
+    transform: rotate(-90deg);
+    z-index: 4;
+}
+.about{
+    display: flex;
+    background-image: linear-gradient(90deg, #a9774e, #864831, #402014);
+    width: 100%;
+    height: 100vh;
+}
+.about-left , .about-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5vh;
+    width: 50%;
+    height: 100%;
+}
+.about-left img{
+    width: 90%;
+    transform: rotate(50deg);
+    margin-top: 45vh;
+}
+.about-right h1{
+    color: white;
+    font-size: 5vw;
+}
+.about-right p{
+    color: white;
+    font-size: 1vw;
+    width: 80%;
+}
+.product{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product img{
+    width: 100%;
+    height: 100%;
+}
